@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: :iot-r-edge-lib-release:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/iot-r-edge-lib-release.aar/581710c383bc7d70998fd57d32617e8e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/iot-r-edge-lib-release.aar/581710c383bc7d70998fd57d32617e8e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

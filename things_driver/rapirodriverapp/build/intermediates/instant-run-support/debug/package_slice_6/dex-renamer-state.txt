@@ -1,0 +1,4 @@
+#Sun Mar 25 21:47:36 GMT+09:00 2018
+base.0=C\:\\Users\\azara\\AndroidStudioProjects\\IoT-Driver\\sample\\rapirodriverapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6
+renamed.0=classes.dex
+file.0=C\:\\Users\\azara\\AndroidStudioProjects\\IoT-Driver\\sample\\rapirodriverapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex

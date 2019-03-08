@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rapirodriverapp/rapirodriverapp.iml" filepath="$PROJECT_DIR$/rapirodriverapp/rapirodriverapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sampledriverapp/sampledriverapp.iml" filepath="$PROJECT_DIR$/sampledriverapp/sampledriverapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samplehuedriver/samplehuedriver.iml" filepath="$PROJECT_DIR$/samplehuedriver/samplehuedriver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sampleiremocondriver/sampleiremocondriver.iml" filepath="$PROJECT_DIR$/sampleiremocondriver/sampleiremocondriver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/things_driver.iml" filepath="$PROJECT_DIR$/things_driver.iml" />
+    </modules>
+  </component>
+</project>
