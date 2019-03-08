@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RapiroDirverApp</string>
+    <string name="btn_send_device_info">Send Device Info</string>
+</resources>

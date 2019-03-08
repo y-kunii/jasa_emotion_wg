@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="iot-r-edge-lib-release-">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/a47e5b5b134540f840df08a16dea17436a5fa11d/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/a47e5b5b134540f840df08a16dea17436a5fa11d/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

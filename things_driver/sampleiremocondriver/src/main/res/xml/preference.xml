@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="@string/preference_key_iremocon_ipaddress"
+        android:title="iRemocon IPアドレス"
+        android:defaultValue="@string/default_iremocon_ipaddress"
+        android:dialogTitle="iRemoconのIPアドレスを入力してください" />
+
+    <Preference
+        android:title="接続確認"
+        android:key="button_pref_key"
+        android:summary="iRemoconとの接続を確認します"/>
+
+    <Preference
+        android:title="リモコン学習 1"
+        android:key="button_pref_learning_1"
+        android:summary="1番のリモコン学習を行います"/>
+    <Preference
+        android:title="リモコン学習 2"
+        android:key="button_pref_learning_2"
+        android:summary="2番のリモコン学習を行います"/>
+    <Preference
+        android:title="リモコン学習 3"
+        android:key="button_pref_learning_3"
+        android:summary="3番のリモコン学習を行います"/>
+    <Preference
+        android:title="リモコン学習 4"
+        android:key="button_pref_learning_4"
+        android:summary="4番のリモコン学習を行います"/>
+    <Preference
+        android:title="リモコン学習 5"
+        android:key="button_pref_learning_5"
+        android:summary="5番のリモコン学習を行います"/>
+    <Preference
+        android:title="リモコン学習 6"
+        android:key="button_pref_learning_6"
+        android:summary="6番のリモコン学習を行います"/>
+    <Preference
+        android:title="リモコン学習 7"
+        android:key="button_pref_learning_7"
+        android:summary="7番のリモコン学習を行います"/>
+    <Preference
+        android:title="リモコン学習 8"
+        android:key="button_pref_learning_8"
+        android:summary="8番のリモコン学習を行います"/>
+    <Preference
+        android:title="リモコン学習 9"
+        android:key="button_pref_learning_9"
+        android:summary="9番のリモコン学習を行います"/>
+    <Preference
+        android:title="リモコン学習 10"
+        android:key="button_pref_learning_10"
+        android:summary="10番のリモコン学習を行います"/>
+</PreferenceScreen>

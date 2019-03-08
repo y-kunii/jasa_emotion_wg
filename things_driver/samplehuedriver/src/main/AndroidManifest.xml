@@ -1,0 +1,56 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.co.planis.samplehuedriver">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- パーミッションの追加 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".PHHomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/txt_selectbridges" >
+        </activity>
+        <activity
+            android:name=".PHPushlinkActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+
+        <!-- コマンド受信用 -->
+        <receiver
+            android:name=".receiver.HueCommandBroadcastReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="jp.co.planis.gatewaytodriver.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!-- レシーバから起動するサービスの登録 -->
+        <service android:name=".service.HueGatewayToDriverIntentService"/>
+
+        <!-- ドライバアプリ情報収集ブロードキャスト受信用 -->
+        <receiver android:name=".receiver.HueCollectInfoBroadcastReceiver">
+            <intent-filter>
+                <action android:name="jp.co.planis.gatewaytodriver.intent.COLLECT" />
+            </intent-filter>
+        </receiver>
+        <!-- ドライバの情報をゲートウェイアプリに送信するためのサービスクラスの登録 -->
+        <service android:name=".service.HueSendDriverInfoIntentService" />
+
+    </application>
+
+</manifest>

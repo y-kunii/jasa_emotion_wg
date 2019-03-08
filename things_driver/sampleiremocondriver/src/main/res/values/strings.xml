@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SampleIRemoconDriver</string>
+
+    <string name="default_iremocon_ipaddress">192.168.1.72</string>
+
+    <string name="preference_key_iremocon_ipaddress">preference_key_iremocon_ipaddress</string>
+
+</resources>
