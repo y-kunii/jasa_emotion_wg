@@ -72,4 +72,9 @@ public class SleepDaysGridAdapter extends BaseAdapter {
     public long getItemId(int position) {
         return position;
     }
+
+    public String getPositionWord(int position){
+        return mCellTexts[position];
+    }
+
 }
