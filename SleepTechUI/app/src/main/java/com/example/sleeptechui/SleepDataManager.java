@@ -8,14 +8,14 @@ import android.util.Log;
 
 public class SleepDataManager {
     final String TAG = "SleepDataManager";
-    DbOpenHelper helper = null;
+    DbOpenHelper mDBHelper = null;
     SQLiteDatabase db = null;
     final String SCHEDULE_TABLE_NAME = "schedules";
 
     SleepDataManager(Context context){
-        if(helper == null || db == null) {
-            helper = new DbOpenHelper(context);
-            db = helper.getWritableDatabase();
+        if(mDBHelper == null || db == null) {
+            mDBHelper = new DbOpenHelper(context);
+            db = mDBHelper.getWritableDatabase();
         }
     }
 
@@ -136,6 +136,16 @@ public class SleepDataManager {
         }
     }
 
+    public void deleteAllData(){
+        // ContentValuesのインスタンスにデータを格納
+        String sql = "DELETE FROM " + SCHEDULE_TABLE_NAME+ ";";
+        try {
+            db.execSQL(sql);
+        } catch (SQLException e) {
+            Log.e("ERROR", e.toString());
+        }
+    }
+
     private String createInsertSQL(SleepDayData sleepData){
         String sql = "insert into " + SCHEDULE_TABLE_NAME + " (date, temperature, Humidity, Luminance, Evaluation) values ("
           + "\"" + sleepData.getDate() + "\"" + ","
@@ -197,6 +207,10 @@ public class SleepDataManager {
 
     public String[] getSleepDaysListFromDB(){
         String[] SleepDaysList = selectDaysList();
+        Log.d(TAG,"Get Days List -> ");
+        for(int i = 0;i < SleepDaysList.length; i++){
+            Log.d(TAG,"SleepDaysList[" + i + "]" + " = " + SleepDaysList[i]);
+        }
         return SleepDaysList;
     }
 

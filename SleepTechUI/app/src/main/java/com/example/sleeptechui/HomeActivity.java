@@ -167,11 +167,12 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mSleepDataManager = new SleepDataManager(getApplicationContext());
-        initView();
+        mSleepDataManager.deleteAllData();
         if(DEBUG_ON){
             Log.d(TAG,"ダミーデータ作成");
             createDummyData();
         }
+        initView();
         BottomNavigationView mBottomNavigationView = (BottomNavigationView) findViewById(R.id.UI_ITEM_ID_UNDER_NAVIGATION);
         mBottomNavigationView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }

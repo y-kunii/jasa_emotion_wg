@@ -11,7 +11,8 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SleepDaysGridAdapter extends BaseAdapter {
+public class
+SleepDaysGridAdapter extends BaseAdapter {
     final private String TAG = "SleepDaysGridAdapter";
 
     class ViewHolder {
@@ -37,7 +38,7 @@ public class SleepDaysGridAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        Log.d(TAG,"getView: position ->["+ position + "]");
+        Log.d(TAG,"getView: position ->[" + position + "]");
         ViewHolder holder;
         if (convertView == null) {
             // main.xml の <GridView .../> に grid_items.xml を inflate して convertView とする
