@@ -28,6 +28,7 @@
             android:id="@+id/UI_ITEM_ID_SLEEP_DAYS_SPACE"
             android:layout_width="match_parent"
             android:layout_height="200dp"
+            android:background="@drawable/border"
             android:orientation="vertical" >
 
             <GridView
@@ -36,10 +37,15 @@
                 android:verticalSpacing="1dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/border"
                 />
 
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="本日の睡眠評価" />
 
         <RadioGroup
             android:id="@+id/UI_ITEM_ID_BAD_REASON_RADIO_GROUP"
@@ -73,6 +79,20 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="暗かった" />
+
+            <RadioButton
+                android:id="@+id/UI_ITEM_ID_BAD_REASON_5_RADIO_BUTTON"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="湿度が高かった" />
+
+            <RadioButton
+                android:id="@+id/UI_ITEM_ID_BAD_REASON_6_RADIO_BUTTON"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="湿度が低かった" />
         </RadioGroup>
 
         <LinearLayout

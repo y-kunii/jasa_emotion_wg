@@ -21,37 +21,36 @@ public class HomeActivity extends AppCompatActivity {
     final private boolean DEBUG_ON = true;
 
     //-------------------- Declaration member Block --------------------
-    private TextView mHomeTextView;
-    private Button mGoodButton;
-    private Button mBadButton;
-    private RadioGroup mRadioGroup; //UI_ITEM_ID_BAD_REASON_RADIO_GROUP
-    private RadioButton mReasonRadioButton1;
-    private RadioButton mReasonRadioButton2;
-    private RadioButton mReasonRadioButton3;
-    private RadioButton mReasonRadioButton4;
-    private GridView mSleepDaysGridView;
-    private SleepDaysGridAdapter mSleepDaysGridViewAdapter;
-    private BottomNavigationView mBottomNavigationView;
+    private TextView mHomeTextView = null;;
+    private Button mGoodButton = null;;
+    private Button mBadButton = null;;
+    private RadioGroup mRadioGroup = null;;
+    private RadioButton mReasonRadioButton1 = null;;
+    private RadioButton mReasonRadioButton2 = null;;
+    private RadioButton mReasonRadioButton3 = null;;
+    private RadioButton mReasonRadioButton4 = null;;
+    private GridView mSleepDaysGridView = null;;
+    private SleepDaysGridAdapter mSleepDaysGridViewAdapter = null;;
+    private BottomNavigationView mBottomNavigationView = null;;
     private final int FP = ViewGroup.LayoutParams.FILL_PARENT;
     private final int WC = ViewGroup.LayoutParams.WRAP_CONTENT;
     private SleepDataManager mSleepDataManager = null;
-//    private String[] list = {"4月1日","4月2日","4月3日","4月4日","4月5日",};
     private String[] mSleepDaysList = null;
+    private RapiroManager mRapiroManager = null;
+    private String mBadCommandWithReason = null;
+
     //-------------------- Declaration Listener Block --------------------
     View.OnClickListener mGoodButtonClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             switch (v.getId()){
                 case R.id.UI_ITEM_ID_GOOD_BUTTON:
-//                    Toast.makeText(HomeActivity.this,
-//                            ((Button)findViewById(R.id.UI_ITEM_ID_GOOD_BUTTON)).getText()
-//                            +"が押されました",
-//                            Toast.LENGTH_SHORT).show();
-                    if(DEBUG_ON) {
-                        //ここにDB格納処理を記載
-                    } else {
-                        //ここに評価送信処理を記載
-                    }
+                    new Thread(new Runnable() {
+                        @Override
+                        public void run() {
+                            mRapiroManager.sendCommand(SleepTechUIConstants.COMMAND_ID_FEEL_GOOD);
+                        }
+                    }).start();
                     break;
                 default:
             }
@@ -63,14 +62,17 @@ public class HomeActivity extends AppCompatActivity {
         public void onClick(View v) {
             switch (v.getId()){
                 case R.id.UI_ITEM_ID_BAD_BUTTON:
-                    Toast.makeText(HomeActivity.this,
-                            ((Button)findViewById(R.id.UI_ITEM_ID_BAD_BUTTON)).getText()
-                                    +"が押されました",
-                            Toast.LENGTH_SHORT).show();
-                    if(DEBUG_ON) {
-                        //ここにDB格納処理を記載
+                    if(mBadCommandWithReason == null){
+                        Toast.makeText(HomeActivity.this,
+                                "寝れなかった理由を選択して下さい。",
+                                Toast.LENGTH_SHORT).show();
                     } else {
-                        //ここに評価送信処理を記載
+                        new Thread(new Runnable() {
+                            @Override
+                            public void run() {
+                                mRapiroManager.sendCommand(mBadCommandWithReason);
+                            }
+                        }).start();
                     }
                     break;
                 default:
@@ -97,16 +99,22 @@ public class HomeActivity extends AppCompatActivity {
         private void onClickRadioButton(int checkedId) {
             switch (checkedId){
                 case R.id.UI_ITEM_ID_BAD_REASON_1_RADIO_BUTTON:
-
+                    mBadCommandWithReason = SleepTechUIConstants.COMMAND_ID_FEEL_BAD_BECAUSE_OF_HEAT;
                     break;
                 case R.id.UI_ITEM_ID_BAD_REASON_2_RADIO_BUTTON:
-
+                    mBadCommandWithReason = SleepTechUIConstants.COMMAND_ID_FEEL_BAD_BECAUSE_OF_COLDNESS;
                     break;
                 case R.id.UI_ITEM_ID_BAD_REASON_3_RADIO_BUTTON:
-
+                    mBadCommandWithReason = SleepTechUIConstants.COMMAND_ID_FEEL_BAD_BECAUSE_OF_BRIGHTNESS;
                     break;
                 case R.id.UI_ITEM_ID_BAD_REASON_4_RADIO_BUTTON:
-
+                    mBadCommandWithReason = SleepTechUIConstants.COMMAND_ID_FEEL_BAD_BECAUSE_OF_DARKNESS;
+                    break;
+                case R.id.UI_ITEM_ID_BAD_REASON_5_RADIO_BUTTON:
+                    mBadCommandWithReason = SleepTechUIConstants.COMMAND_ID_FEEL_BAD_BECAUSE_OF_MOISTURE;
+                    break;
+                case R.id.UI_ITEM_ID_BAD_REASON_6_RADIO_BUTTON:
+                    mBadCommandWithReason = SleepTechUIConstants.COMMAND_ID_FEEL_BAD_BECAUSE_OF_DRY;
                     break;
                 default:
             }
@@ -175,6 +183,7 @@ public class HomeActivity extends AppCompatActivity {
         initView();
         BottomNavigationView mBottomNavigationView = (BottomNavigationView) findViewById(R.id.UI_ITEM_ID_UNDER_NAVIGATION);
         mBottomNavigationView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+        mRapiroManager = new RapiroManager();
     }
 
     private void initView(){
@@ -203,12 +212,14 @@ public class HomeActivity extends AppCompatActivity {
         SleepDayData dummyData3 = new SleepDayData("4月23日",22,30,5,"BAD");
         SleepDayData dummyData4 = new SleepDayData("4月24日",21,35,20,"BAD");
         SleepDayData dummyData5 = new SleepDayData("4月25日",25,30,11,"GOOD");
+        SleepDayData dummyData6 = new SleepDayData("5月31日",20,25,10,"(未設定)");
         if(mSleepDataManager != null){
             mSleepDataManager.insertData(dummyData1);
             mSleepDataManager.insertData(dummyData2);
             mSleepDataManager.insertData(dummyData3);
             mSleepDataManager.insertData(dummyData4);
             mSleepDataManager.insertData(dummyData5);
+            mSleepDataManager.insertData(dummyData6);
         }
     }
 
