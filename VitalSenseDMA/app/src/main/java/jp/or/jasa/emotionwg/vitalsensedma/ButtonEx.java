@@ -10,6 +10,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
@@ -32,13 +33,32 @@ import java.net.URL;
 public class ButtonEx extends Activity implements
         View.OnClickListener {
     private final static int WC = ViewGroup.LayoutParams.WRAP_CONTENT;
-    private final static String TAG_BEDIN = "1";
-    private final static String TAG_SLEEPING   = "2";
-    private final static String TAG_MORNING    = "4";
-    private final static String TAG_WAKEUP   = "5";
+
+    private final static String TAG_BEDOUT = "0";               // RESET
+    private final static String TAG_BEDIN = "1";                // 入床
+    private final static String TAG_SLEEPING   = "11";          // 入眠
+    private final static String TAG_SLEEPING_DEEP = "1x";       // 深い眠りボタン
+    private final static String TAG_SLEEPING_DEEP2 = "12";
+    private final static String TAG_SLEEPING_DEEP3 = "13";
+    private final static String TAG_SLEEPING_DEEP4 = "14";
+    private final static String TAG_MORNING    = "21";          // 朝眠りが浅くなった
+    private final static String TAG_MORNING_DEEP2 = "22";
+    private final static String TAG_MORNING_DEEP3 = "23";
+    private final static String TAG_MORNING_DEEP4 = "24";
+    private final static String TAG_WAKEUP   = "31";            // 覚醒
     //    private UploadTask task;
     private Handler handler = new Handler();
     private String text;
+    private PostEvent task;
+
+    private int sleepDepth = -1;
+    private final static String sleepDepthTag[] = {
+            TAG_SLEEPING_DEEP2,
+            TAG_SLEEPING_DEEP3,
+            TAG_SLEEPING_DEEP4,
+            TAG_SLEEPING_DEEP3,
+            ""
+    };
 
     //アクティビティ起動時に呼ばれる
     @Override
@@ -55,12 +75,10 @@ public class ButtonEx extends Activity implements
         //ボタンの生成(1)
         layout.addView(makeButton(res2bmp(this, R.drawable.bed_bedin), TAG_BEDIN));
         layout.addView(makeButton(res2bmp(this, R.drawable.bed_sleeping), TAG_SLEEPING));
+        layout.addView(makeButton("深い眠り", TAG_SLEEPING_DEEP));
         layout.addView(makeButton(res2bmp(this, R.drawable.bed_sleepy_morning), TAG_MORNING));
         layout.addView(makeButton(res2bmp(this, R.drawable.bed_wakeup), TAG_WAKEUP));
-//        layout.addView(makeButton("メッセージダイアログの表示", TAG_BEDIN));
-//        layout.addView(makeButton("Yes/Noダイアログの表示", TAG_SLEEPING));
-//        layout.addView(makeButton("テキスト入力ダイアログの表示", TAG_MORNING));
-//        layout.addView(makeButton(res2bmp(this, R.drawable.sample), TAG_WAKEUP));
+        layout.addView(makeButton("離床（RESET）", TAG_BEDOUT));
     }
 
     //ボタンの生成(1)
@@ -91,152 +109,47 @@ public class ButtonEx extends Activity implements
 
     //ボタン押下時に呼ばれる(2)
     public void onClick(View view) {
-        final String tag = (String)view.getTag();
+        String tagWork = (String)view.getTag();
+
+        // 1 つのボタンで眠りの深さを順番に変える。
+        if (tagWork.equals(TAG_SLEEPING_DEEP)) {
+            sleepDepth++;
+            if (sleepDepthTag[sleepDepth].equals("")) {
+                sleepDepth = 0;
+            }
+            tagWork = sleepDepthTag[sleepDepth];
+        }
+        else {
+            sleepDepth = -1;
+        }
+
+        final String tag = tagWork;
 
         Thread thread = new Thread(new Runnable() { public void run() {
             // HTTP 通信
             try {
-//                text = new String(http2data(tag));
-                text = new String(sendRequest(tag));
+                task = new PostEvent();
+                task.setListener(createListener());
+                task.execute(tag);
             } catch (Exception e) {
                 text = null;
             }
-            // ハンドラの生成
-            handler.post(new Runnable() { public void run() {
-                if (text != null) {
-//                    editText.setText(text);
-                } else {
-//                    editText.setText("読込み失敗しました。");
-                }
-            }});
         }});
         thread.start();
 
 //        MessageDialog.show(this, "メッセージダイアログ", "ボタンを押した");
     }
 
-    //HTTP 通信
-    public static byte[] http2data(String request) throws Exception {
-        byte[] w = new byte[1024];
-        HttpURLConnection c = null;
-        InputStream in = null;
-        ByteArrayOutputStream out = null;
-        String urlSt = "<オリジナルIoTサービスのURL>";	// 2018年COMMAハウスでは、SSTのAzureに構築した。
-        urlSt += request;
 
-        try {
-            URL url = new URL(urlSt);
-            c = (HttpURLConnection)url.openConnection();
-            c.setRequestMethod("GET");
-            c.connect();
-            in = c.getInputStream();
-
-            out = new ByteArrayOutputStream();
-            while (true) {
-                int size = in.read(w);
-                if (size <= 0) break;
-                out.write(w, 0, size);
+    private PostEvent.Listener createListener() {
+        return new PostEvent.Listener() {
+            @Override
+            public void onSuccess(String result) {
+                // TODO: 送信結果を何か表示させたいが、後回し。
+//                textView.setText(result);
+                Log.d("***** debug *****","sendRequest : PostEvent.Listener onSuccess");
             }
-            out.close();
-
-            in.close();
-            c.disconnect();
-            return out.toByteArray();
-        } catch (Exception e) {
-            try {
-                if (c != null) c.disconnect();
-                if (in != null) in.close();
-                if (out != null) out.close();
-            } catch (Exception e2) {
-                ;
-            }
-            throw e;
-        }
-    }
-
-    //HTTP 通信
-    public static byte[] sendRequest(String request) throws Exception {
-//        if(request.length() != 0){
-//            task = new UploadTask();
-//            task.setListener(createListener());
-//            task.execute(request);
-//        }
-
-        byte[] w = new byte[1024];
-        HttpURLConnection c = null;
-
-		String urlSt = "<オリジナルIoTサービスのURL>";	// 2018年COMMAハウスでは、SSTのAzureに構築した。
-        urlSt += request;
-
-        HttpURLConnection con = null;
-        String result = null;
-//            String word = "word="+params[0];
-        String word = request;
-        Log.d("***** debug *****","sendRequest : " + urlSt);
-
-        try {
-            // URL設定
-            URL url = new URL(urlSt);
-
-            // HttpURLConnection
-            con = (HttpURLConnection) url.openConnection();
-
-            // request POST
-//            con.setRequestMethod("POST");
-            con.setRequestMethod("PUT");
-
-            // no Redirects
-            con.setInstanceFollowRedirects(false);
-
-            // データを書き込む
-            con.setDoOutput(true);
-
-            // 時間制限
-            con.setReadTimeout(10000);
-            con.setConnectTimeout(20000);
-
-            // 接続
-            con.connect();
-
-            // POSTデータ送信処理
-            OutputStream out = null;
-            try {
-                out = con.getOutputStream();
-                out.write( word.getBytes("UTF-8") );
-                out.flush();
-                Log.d("***** debug *****","sendRequest : Sent(flush)");
-            } catch (IOException e) {
-                // POST送信エラー
-                e.printStackTrace();
-                result="POST送信エラー";
-                Log.d("***** debug *****","sendRequest : IOException");
-            } finally {
-                Log.d("***** debug *****","sendRequest : finally");
-                if (out != null) {
-                    out.close();
-                }
-            }
-
-            final int status = con.getResponseCode();
-            if (status == HttpURLConnection.HTTP_OK) {
-                // レスポンスを受け取る処理等
-                result="HTTP_OK";
-            }
-            else{
-                result="status="+String.valueOf(status);
-            }
-
-        } catch (IOException e) {
-            Log.d("***** debug *****","sendRequest : IOException 1");
-            e.printStackTrace();
-        } finally {
-            Log.d("***** debug *****","sendRequest : finally 1");
-            if (con != null) {
-                con.disconnect();
-            }
-        }
-
-        return w;
+        };
     }
 
     @Override
