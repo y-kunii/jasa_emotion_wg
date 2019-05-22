@@ -104,19 +104,12 @@ public class SleepDataManager {
         return returnSleepDaysList;
     }
 
-    public void updateData(String title, String place,String memo,String startAt, String date){
+    public void updateData(String evaluetion, String date){
         String sql = "update " + SCHEDULE_TABLE_NAME
-                + " SET title =?, place = ?,memo = ?, start_at = ? "
-                + "WHERE date = ? ;";
-        String[] bindStr = new String[]{
-                title,
-                place,
-                memo,
-                startAt,
-                date
-        };
+                + " SET Evaluation = " + "\"" + evaluetion + "\"" + " "
+                + "WHERE date = " + "\"" + date + "\"" + ";";
         try {
-            db.execSQL(sql,bindStr);
+            db.execSQL(sql);
         } catch (SQLException e) {
             Log.e("ERROR", e.toString());
         }

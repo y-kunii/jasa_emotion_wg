@@ -7,8 +7,8 @@
 
     <TextView
         android:id="@+id/UI_ITEM_ID_CELL_TEXT"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
         android:text="fake text"
         />
 

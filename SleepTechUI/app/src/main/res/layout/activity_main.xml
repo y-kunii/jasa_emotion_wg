@@ -13,34 +13,93 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/UI_ITEM_ID_GO_HOME"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/activity_horizontal_margin"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:text="睡眠履歴"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
         <LinearLayout
-            android:id="@+id/UI_ITEM_ID_SLEEP_DAYS_SPACE"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:background="@drawable/border"
-            android:orientation="vertical" >
+            android:orientation="horizontal">
 
-            <GridView
-                android:id="@+id/UI_ITEM_ID_SLEEP_DAYS_NAVIGATION_VIEW"
-                android:horizontalSpacing="1dp"
-                android:verticalSpacing="1dp"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
 
+                <TextView
+                    android:id="@+id/UI_ITEM_ID_CURRENT_DATA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/activity_horizontal_margin"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:text="現在のデータ"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/UI_ITEM_ID_DATA_TEMPERATURE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="温度 : "
+                    android:textSize="18sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/UI_ITEM_ID_DATA_HUMIDITY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="湿度 : "
+                    android:textSize="18sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/UI_ITEM_ID_DATA_LUMINANCE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="輝度 : "
+                    android:textSize="18sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/UI_ITEM_ID_GO_HOME"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/activity_horizontal_margin"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:text="睡眠履歴"
+                    android:textSize="18sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:id="@+id/UI_ITEM_ID_SLEEP_DAYS_SPACE"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/border"
+                    android:orientation="vertical" >
+
+                    <GridView
+                        android:id="@+id/UI_ITEM_ID_SLEEP_DAYS_NAVIGATION_VIEW"
+                        android:horizontalSpacing="1dp"
+                        android:verticalSpacing="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        />
+                </LinearLayout>
+            </LinearLayout>
         </LinearLayout>
-
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"

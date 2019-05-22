@@ -38,6 +38,7 @@ public class HomeActivity extends AppCompatActivity {
     private String[] mSleepDaysList = null;
     private RapiroManager mRapiroManager = null;
     private String mBadCommandWithReason = null;
+    private RequestDataTask mRequestDataTask = null;
 
     //-------------------- Declaration Listener Block --------------------
     View.OnClickListener mGoodButtonClickListener = new View.OnClickListener() {
@@ -51,6 +52,7 @@ public class HomeActivity extends AppCompatActivity {
                             mRapiroManager.sendCommand(SleepTechUIConstants.COMMAND_ID_FEEL_GOOD);
                         }
                     }).start();
+                    mSleepDataManager.updateData(SleepTechUIConstants.STRING_ID_FEEL_GOOD,"5月31日");
                     break;
                 default:
             }
@@ -73,6 +75,7 @@ public class HomeActivity extends AppCompatActivity {
                                 mRapiroManager.sendCommand(mBadCommandWithReason);
                             }
                         }).start();
+                        mSleepDataManager.updateData(SleepTechUIConstants.STRING_ID_FEEL_BAD,"5月31日");
                     }
                     break;
                 default:
@@ -184,6 +187,13 @@ public class HomeActivity extends AppCompatActivity {
         BottomNavigationView mBottomNavigationView = (BottomNavigationView) findViewById(R.id.UI_ITEM_ID_UNDER_NAVIGATION);
         mBottomNavigationView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         mRapiroManager = new RapiroManager();
+        mRequestDataTask = new RequestDataTask(this);
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+            mRequestDataTask.doInBackground(SleepTechUIConstants.URL_IOT_EXCHANGE);
+            }
+        }).start();
     }
 
     private void initView(){
@@ -207,12 +217,12 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     private void createDummyData(){
-        SleepDayData dummyData1 = new SleepDayData("4月21日",23,30,14,"GOOD");
-        SleepDayData dummyData2 = new SleepDayData("4月22日",24,35,9,"BAD");
-        SleepDayData dummyData3 = new SleepDayData("4月23日",22,30,5,"BAD");
-        SleepDayData dummyData4 = new SleepDayData("4月24日",21,35,20,"BAD");
-        SleepDayData dummyData5 = new SleepDayData("4月25日",25,30,11,"GOOD");
-        SleepDayData dummyData6 = new SleepDayData("5月31日",20,25,10,"(未設定)");
+        SleepDayData dummyData1 = new SleepDayData("4月21日",23,30,14,SleepTechUIConstants.STRING_ID_FEEL_GOOD);
+        SleepDayData dummyData2 = new SleepDayData("4月22日",24,35,9,SleepTechUIConstants.STRING_ID_FEEL_BAD);
+        SleepDayData dummyData3 = new SleepDayData("4月23日",22,30,5,SleepTechUIConstants.STRING_ID_FEEL_BAD);
+        SleepDayData dummyData4 = new SleepDayData("4月24日",21,35,20,SleepTechUIConstants.STRING_ID_FEEL_BAD);
+        SleepDayData dummyData5 = new SleepDayData("4月25日",25,30,11,SleepTechUIConstants.COMMAND_ID_FEEL_GOOD);
+        SleepDayData dummyData6 = new SleepDayData("5月31日",20,25,10,SleepTechUIConstants.STRING_ID_FEEL_NOT_EVALUATED);
         if(mSleepDataManager != null){
             mSleepDataManager.insertData(dummyData1);
             mSleepDataManager.insertData(dummyData2);
