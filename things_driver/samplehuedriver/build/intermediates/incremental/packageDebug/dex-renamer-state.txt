@@ -1,7 +1,0 @@
-#Sun Mar 25 21:48:02 GMT+09:00 2018
-base.0=C\:\\Users\\azara\\AndroidStudioProjects\\IoT-Driver\\sample\\samplehuedriver\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7b5c6f508e3c540db68579121c1f5457f193b8fd
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\azara\\AndroidStudioProjects\\IoT-Driver\\sample\\samplehuedriver\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ee905f17ea4133dcd0588d98f9d4e7766b4ecbe9\\classes.dex
-base.1=C\:\\Users\\azara\\AndroidStudioProjects\\IoT-Driver\\sample\\samplehuedriver\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ee905f17ea4133dcd0588d98f9d4e7766b4ecbe9
-file.0=C\:\\Users\\azara\\AndroidStudioProjects\\IoT-Driver\\sample\\samplehuedriver\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7b5c6f508e3c540db68579121c1f5457f193b8fd\\classes.dex

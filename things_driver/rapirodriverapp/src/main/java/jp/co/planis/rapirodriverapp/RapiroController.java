@@ -18,9 +18,9 @@ import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
-import jp.co.planis.iotgatewaylib.CommandResponseCreator;
-import jp.co.planis.iotgatewaylib.commandresponse.CommandResponse;
-import jp.co.planis.iotgatewaylib.service.AbstractConnectGatewayService;
+import proj.iot.exchange.redge.driverlib.CommandResponseCreator;
+import proj.iot.exchange.redge.driverlib.commandresponse.CommandResponse;
+import proj.iot.exchange.redge.driverlib.service.AbstractConnectGatewayService;
 
 import static android.content.ContentValues.TAG;
 

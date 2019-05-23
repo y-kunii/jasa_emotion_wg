@@ -1,7 +1,0 @@
-#Sun Mar 25 21:48:19 GMT+09:00 2018
-base.0=C\:\\Users\\azara\\AndroidStudioProjects\\IoT-Driver\\sample\\sampledriverapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f05072f5b27532945125b5a4d65a1fa41603dab5
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\azara\\AndroidStudioProjects\\IoT-Driver\\sample\\sampledriverapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2b211e50f8d5fe1036b26a7e58992f8b2f80ddf1\\classes.dex
-base.1=C\:\\Users\\azara\\AndroidStudioProjects\\IoT-Driver\\sample\\sampledriverapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2b211e50f8d5fe1036b26a7e58992f8b2f80ddf1
-file.0=C\:\\Users\\azara\\AndroidStudioProjects\\IoT-Driver\\sample\\sampledriverapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f05072f5b27532945125b5a4d65a1fa41603dab5\\classes.dex
