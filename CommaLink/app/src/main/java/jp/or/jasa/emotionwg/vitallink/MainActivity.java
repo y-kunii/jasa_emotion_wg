@@ -404,8 +404,8 @@ public class MainActivity extends AppCompatActivity {
             con = (HttpURLConnection) url.openConnection();
 
             // request POST
-//            con.setRequestMethod("POST");
-            con.setRequestMethod("PUT");
+            con.setRequestMethod("POST");
+//            con.setRequestMethod("PUT");
 
             // no Redirects
             con.setInstanceFollowRedirects(false);
