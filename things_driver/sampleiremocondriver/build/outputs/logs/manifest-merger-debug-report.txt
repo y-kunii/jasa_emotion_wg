@@ -1,163 +1,163 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:1-42:12
-INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:1-42:12
-INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:1-42:12
-INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:1-42:12
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\5ff88dd315137163d242016d2c9410a4\AndroidManifest.xml:17:1-27:12
-MERGED from [:iot-redge-driverlib:] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\iot-redge-driverlib.aar\2120c7e6361f7b526f67c1a84efb08e5\AndroidManifest.xml:2:1-21:12
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\5d11ee875b837c4eb3a37838bf93025a\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\654d579e2a649e8b700fa02948d387f6\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\0dc991d465f2b13e69fa9bb858fdd6bd\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\131c1f063e360dd0d180b9947b8bf160\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\beb16d111a7f8438c36f8385e54ae780\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\5a717cf7763b1e237a0be24dc954a53d\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\31999bc39787395d1c40f40605df0388\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\58817622368481661069359b36d530e7\AndroidManifest.xml:17:1-27:12
-INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:1-42:12
-INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:1-42:12
-INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:1-42:12
+ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:1-42:12
+INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:1-42:12
+INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:1-42:12
+INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:1-42:12
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\d65d3643639f2af7222647aab088119c\AndroidManifest.xml:17:1-27:12
+MERGED from [:iot-redge-driverlib:] C:\Android\.gradle\caches\transforms-2\files-2.1\e0c54faeead93648421f56a9daf1d06b\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:support-v4:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\423b78790f594c88c0c507365dc25693\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\af9da605f0e248e9a898b83456d7f0e9\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\4381366f98931bf96c7a7b4ec1d403dd\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\3057a90a0c61a0e7d491a8e9f64d598b\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\c0c687f374dc5615e41998986354e671\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\aae932f4b07328e4a74a24e0110f2077\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\719358cfad86aaa179475902e538bfab\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\a228cea2634cbe8cfa9bfd42dd355efe\AndroidManifest.xml:17:1-27:12
+INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:1-42:12
+INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:1-42:12
+INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:1-42:12
 	package
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:2:5-48
-		INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
-		INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:2:5-48
+		INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
+		INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:1-42:12
-		INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
+		INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:1-42:12
+		INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:1-42:12
-		INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
+		INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:1-42:12
+		INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:4:5-68
+ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:4:5-68
 	android:name
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:4:22-65
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:4:22-65
 uses-permission#android.permission.INTERNET
-ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:7:5-40:19
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\5ff88dd315137163d242016d2c9410a4\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\5ff88dd315137163d242016d2c9410a4\AndroidManifest.xml:25:5-20
-MERGED from [:iot-redge-driverlib:] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\iot-redge-driverlib.aar\2120c7e6361f7b526f67c1a84efb08e5\AndroidManifest.xml:11:5-19:19
-MERGED from [:iot-redge-driverlib:] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\iot-redge-driverlib.aar\2120c7e6361f7b526f67c1a84efb08e5\AndroidManifest.xml:11:5-19:19
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\5d11ee875b837c4eb3a37838bf93025a\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\5d11ee875b837c4eb3a37838bf93025a\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\654d579e2a649e8b700fa02948d387f6\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\654d579e2a649e8b700fa02948d387f6\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\0dc991d465f2b13e69fa9bb858fdd6bd\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\0dc991d465f2b13e69fa9bb858fdd6bd\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\131c1f063e360dd0d180b9947b8bf160\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\131c1f063e360dd0d180b9947b8bf160\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\beb16d111a7f8438c36f8385e54ae780\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\beb16d111a7f8438c36f8385e54ae780\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\5a717cf7763b1e237a0be24dc954a53d\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\5a717cf7763b1e237a0be24dc954a53d\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\31999bc39787395d1c40f40605df0388\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\31999bc39787395d1c40f40605df0388\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\58817622368481661069359b36d530e7\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\58817622368481661069359b36d530e7\AndroidManifest.xml:25:5-20
+ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:7:5-40:19
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\d65d3643639f2af7222647aab088119c\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\d65d3643639f2af7222647aab088119c\AndroidManifest.xml:25:5-20
+MERGED from [:iot-redge-driverlib:] C:\Android\.gradle\caches\transforms-2\files-2.1\e0c54faeead93648421f56a9daf1d06b\AndroidManifest.xml:11:5-19:19
+MERGED from [:iot-redge-driverlib:] C:\Android\.gradle\caches\transforms-2\files-2.1\e0c54faeead93648421f56a9daf1d06b\AndroidManifest.xml:11:5-19:19
+MERGED from [com.android.support:support-v4:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\423b78790f594c88c0c507365dc25693\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\423b78790f594c88c0c507365dc25693\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\af9da605f0e248e9a898b83456d7f0e9\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\af9da605f0e248e9a898b83456d7f0e9\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\4381366f98931bf96c7a7b4ec1d403dd\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\4381366f98931bf96c7a7b4ec1d403dd\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\3057a90a0c61a0e7d491a8e9f64d598b\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\3057a90a0c61a0e7d491a8e9f64d598b\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\c0c687f374dc5615e41998986354e671\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\c0c687f374dc5615e41998986354e671\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\aae932f4b07328e4a74a24e0110f2077\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\aae932f4b07328e4a74a24e0110f2077\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\719358cfad86aaa179475902e538bfab\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\719358cfad86aaa179475902e538bfab\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\a228cea2634cbe8cfa9bfd42dd355efe\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\a228cea2634cbe8cfa9bfd42dd355efe\AndroidManifest.xml:25:5-20
 	android:supportsRtl
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:8:9-41
 	android:icon
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:7:18-44
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:7:18-44
 	android:theme
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:11:9-40
 activity#jp.co.planis.sampleiremocondriver.ApplicationSettingActivity
-ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:12:19-61
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:12:19-61
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:16:27-74
 activity#jp.co.planis.sampleiremocondriver.LearningActivity
-ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:19:9-53
+ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:19:9-53
 	android:name
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:19:19-51
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:19:19-51
 receiver#jp.co.planis.sampleiremocondriver.receiver.IRemoconCommandBroadcastReceiver
-ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:22:9-27:20
+ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:22:9-27:20
 	android:exported
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:23:71-95
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:23:71-95
 	android:name
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:23:13-70
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:23:13-70
 intent-filter#action:name:proj.iot.exchange.redge.gatewaytodriver.intent.RECEIVE
-ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:24:13-26:29
+ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:24:13-26:29
 action#proj.iot.exchange.redge.gatewaytodriver.intent.RECEIVE
-ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:25:17-97
+ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:25:17-97
 	android:name
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:25:25-94
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:25:25-94
 service#jp.co.planis.sampleiremocondriver.service.IRemoconGatewayToDriverIntentService
-ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:29:9-80
+ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:29:9-80
 	android:name
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:29:18-78
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:29:18-78
 receiver#jp.co.planis.sampleiremocondriver.receiver.IRemoconCollectInfoBroadcastReceiver
-ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:32:9-36:20
+ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:32:9-36:20
 	android:name
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:32:19-80
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:32:19-80
 intent-filter#action:name:proj.iot.exchange.redge.gatewaytodriver.intent.COLLECT
-ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:33:13-35:29
+ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:33:13-35:29
 action#proj.iot.exchange.redge.gatewaytodriver.intent.COLLECT
-ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:34:17-97
+ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:34:17-97
 	android:name
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:34:25-94
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:34:25-94
 service#jp.co.planis.sampleiremocondriver.service.IRemoconSendDriverInfoIntentService
-ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:38:9-80
+ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:38:9-80
 	android:name
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:38:18-77
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml:38:18-77
 uses-sdk
-INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
-INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\5ff88dd315137163d242016d2c9410a4\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\5ff88dd315137163d242016d2c9410a4\AndroidManifest.xml:21:5-23:78
-MERGED from [:iot-redge-driverlib:] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\iot-redge-driverlib.aar\2120c7e6361f7b526f67c1a84efb08e5\AndroidManifest.xml:7:5-9:41
-MERGED from [:iot-redge-driverlib:] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\iot-redge-driverlib.aar\2120c7e6361f7b526f67c1a84efb08e5\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\5d11ee875b837c4eb3a37838bf93025a\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\5d11ee875b837c4eb3a37838bf93025a\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\654d579e2a649e8b700fa02948d387f6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\654d579e2a649e8b700fa02948d387f6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\0dc991d465f2b13e69fa9bb858fdd6bd\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\0dc991d465f2b13e69fa9bb858fdd6bd\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\131c1f063e360dd0d180b9947b8bf160\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\131c1f063e360dd0d180b9947b8bf160\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\beb16d111a7f8438c36f8385e54ae780\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\beb16d111a7f8438c36f8385e54ae780\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\5a717cf7763b1e237a0be24dc954a53d\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\5a717cf7763b1e237a0be24dc954a53d\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\31999bc39787395d1c40f40605df0388\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\31999bc39787395d1c40f40605df0388\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\58817622368481661069359b36d530e7\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\58817622368481661069359b36d530e7\AndroidManifest.xml:21:5-23:58
-INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
-INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
+INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
+INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\d65d3643639f2af7222647aab088119c\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\d65d3643639f2af7222647aab088119c\AndroidManifest.xml:21:5-23:78
+MERGED from [:iot-redge-driverlib:] C:\Android\.gradle\caches\transforms-2\files-2.1\e0c54faeead93648421f56a9daf1d06b\AndroidManifest.xml:7:5-9:41
+MERGED from [:iot-redge-driverlib:] C:\Android\.gradle\caches\transforms-2\files-2.1\e0c54faeead93648421f56a9daf1d06b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\423b78790f594c88c0c507365dc25693\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\423b78790f594c88c0c507365dc25693\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\af9da605f0e248e9a898b83456d7f0e9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\af9da605f0e248e9a898b83456d7f0e9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\4381366f98931bf96c7a7b4ec1d403dd\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\4381366f98931bf96c7a7b4ec1d403dd\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\3057a90a0c61a0e7d491a8e9f64d598b\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\3057a90a0c61a0e7d491a8e9f64d598b\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\c0c687f374dc5615e41998986354e671\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\c0c687f374dc5615e41998986354e671\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\aae932f4b07328e4a74a24e0110f2077\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\aae932f4b07328e4a74a24e0110f2077\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\719358cfad86aaa179475902e538bfab\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\719358cfad86aaa179475902e538bfab\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\a228cea2634cbe8cfa9bfd42dd355efe\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\a228cea2634cbe8cfa9bfd42dd355efe\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
+INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.2.1] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\5ff88dd315137163d242016d2c9410a4\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.2.1] C:\Android\.gradle\caches\transforms-2\files-2.1\d65d3643639f2af7222647aab088119c\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
-		INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
+		INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
+		INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
-		ADDED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
-		INJECTED from C:\work\python_camera\jasa\jasa_emotion_wg-master\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
+		INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
+		ADDED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
+		INJECTED from C:\work\SmartLifeWg\WG-GitHub\things_driver\sampleiremocondriver\src\main\AndroidManifest.xml
 service#proj.iot.exchange.redge.driverlib.service.REdgeToDriverIntentService
-ADDED from [:iot-redge-driverlib:] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\iot-redge-driverlib.aar\2120c7e6361f7b526f67c1a84efb08e5\AndroidManifest.xml:15:9-18:19
+ADDED from [:iot-redge-driverlib:] C:\Android\.gradle\caches\transforms-2\files-2.1\e0c54faeead93648421f56a9daf1d06b\AndroidManifest.xml:15:9-18:19
 	android:exported
-		ADDED from [:iot-redge-driverlib:] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\iot-redge-driverlib.aar\2120c7e6361f7b526f67c1a84efb08e5\AndroidManifest.xml:17:13-36
+		ADDED from [:iot-redge-driverlib:] C:\Android\.gradle\caches\transforms-2\files-2.1\e0c54faeead93648421f56a9daf1d06b\AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from [:iot-redge-driverlib:] C:\Users\eri\.gradle\caches\transforms-1\files-1.1\iot-redge-driverlib.aar\2120c7e6361f7b526f67c1a84efb08e5\AndroidManifest.xml:16:13-96
+		ADDED from [:iot-redge-driverlib:] C:\Android\.gradle\caches\transforms-2\files-2.1\e0c54faeead93648421f56a9daf1d06b\AndroidManifest.xml:16:13-96

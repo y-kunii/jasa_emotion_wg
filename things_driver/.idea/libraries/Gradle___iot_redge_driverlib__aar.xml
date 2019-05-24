@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: :iot-redge-driverlib:@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/iot-redge-driverlib.aar/2120c7e6361f7b526f67c1a84efb08e5/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/iot-redge-driverlib.aar/2120c7e6361f7b526f67c1a84efb08e5/jars/classes.jar!/" />
+      <root url="file://C:/Android/.gradle/caches/transforms-2/files-2.1/194d15bd24182216353a39441803335d/res" />
+      <root url="jar://C:/Android/.gradle/caches/transforms-2/files-2.1/194d15bd24182216353a39441803335d/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

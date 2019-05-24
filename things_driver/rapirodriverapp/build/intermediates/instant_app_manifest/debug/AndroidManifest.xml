@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.co.planis.rapirodriverapp"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="28" />
+
+    <!-- パーミッションの追加 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="jp.co.planis.rapirodriverapp.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- コマンド受信用 -->
+        <receiver
+            android:name="jp.co.planis.rapirodriverapp.receiver.RapiroCommandBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="proj.iot.exchange.redge.gatewaytodriver.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!-- レシーバから起動するサービスの登録 -->
+        <service android:name="jp.co.planis.rapirodriverapp.service.RapiroGatewayToDriverIntentService" />
+
+        <!-- ドライバアプリ情報収集ブロードキャスト受信用 -->
+        <receiver android:name="jp.co.planis.rapirodriverapp.receiver.RapiroCollectInfoBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="proj.iot.exchange.redge.gatewaytodriver.intent.COLLECT" />
+            </intent-filter>
+        </receiver>
+        <!-- ドライバの情報をゲートウェイアプリに送信するためのサービスクラスの登録 -->
+        <service android:name="jp.co.planis.rapirodriverapp.service.RapiroDriverInfoIntentService" />
+        <service
+            android:name="proj.iot.exchange.redge.driverlib.service.REdgeToDriverIntentService"
+            android:exported="true" >
+        </service>
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="jp.co.planis.rapirodriverapp.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

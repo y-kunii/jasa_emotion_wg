@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support:support-fragment:28.0.0-rc01@aar">
+    <ANNOTATIONS>
+      <root url="jar://C:/Android/.gradle/caches/transforms-2/files-2.1/4ece4140d39644e94add4a633aca9a1f/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://C:/Android/.gradle/caches/transforms-2/files-2.1/4ece4140d39644e94add4a633aca9a1f/jars/classes.jar!/" />
+      <root url="file://C:/Android/.gradle/caches/transforms-2/files-2.1/4ece4140d39644e94add4a633aca9a1f/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

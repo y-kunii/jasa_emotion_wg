@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\work\\python_camera\\jasa\\jasa_emotion_wg-master\\things_driver\\sampleiremocondriver\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tr\\values-tr.xml",
+            "outputFile": "C:\\work\\SmartLifeWg\\WG-GitHub\\things_driver\\sampleiremocondriver\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tr\\values-tr.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\eri\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5ff88dd315137163d242016d2c9410a4\\res\\values-tr\\values-tr.xml",
+                    "source": "C:\\Android\\.gradle\\caches\\transforms-2\\files-2.1\\d65d3643639f2af7222647aab088119c\\res\\values-tr\\values-tr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
