@@ -7,8 +7,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import jp.co.planis.iotgatewaylib.CommandResponseCreator;
-import jp.co.planis.iotgatewaylib.service.AbstractConnectGatewayService;
+import proj.iot.exchange.redge.driverlib.CommandResponseCreator;
+import proj.iot.exchange.redge.driverlib.service.AbstractConnectGatewayService;
 
 /**
  * ドライバアプリの情報をゲートウェイに送信するためのサービスクラスのサンプル

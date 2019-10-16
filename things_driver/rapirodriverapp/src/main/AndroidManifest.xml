@@ -21,9 +21,9 @@
 
         <!-- コマンド受信用 -->
         <receiver
-            android:name="jp.co.planis.rapirodriverapp.receiver.RapiroCommandBroadcastReceiver" android:exported="false">
+            android:name="jp.co.planis.rapirodriverapp.receiver.RapiroCommandBroadcastReceiver" android:exported="true">
             <intent-filter>
-                <action android:name="jp.co.planis.gatewaytodriver.intent.RECEIVE" />
+                <action android:name="proj.iot.exchange.redge.gatewaytodriver.intent.RECEIVE" />
             </intent-filter>
         </receiver>
         <!-- レシーバから起動するサービスの登録 -->
@@ -32,7 +32,7 @@
         <!-- ドライバアプリ情報収集ブロードキャスト受信用 -->
         <receiver android:name=".receiver.RapiroCollectInfoBroadcastReceiver">
             <intent-filter>
-                <action android:name="jp.co.planis.gatewaytodriver.intent.COLLECT" />
+                <action android:name="proj.iot.exchange.redge.gatewaytodriver.intent.COLLECT" />
             </intent-filter>
         </receiver>
         <!-- ドライバの情報をゲートウェイアプリに送信するためのサービスクラスの登録 -->

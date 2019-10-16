@@ -10,9 +10,9 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import jp.co.planis.iotgatewaylib.CommandResponseCreator;
-import jp.co.planis.iotgatewaylib.commandresponse.CommandResponse;
-import jp.co.planis.iotgatewaylib.service.AbstractConnectGatewayService;
+import proj.iot.exchange.redge.driverlib.CommandResponseCreator;
+import proj.iot.exchange.redge.driverlib.commandresponse.CommandResponse;
+import proj.iot.exchange.redge.driverlib.service.AbstractConnectGatewayService;
 
 import static android.content.ContentValues.TAG;
 
@@ -74,6 +74,7 @@ public class CommandCreator {
     }
 
     public static RapiroCommand convertRapiroCommand(CommandResponse.Command command) {
+        Log.d(TAG,"command ->[" + command + "]");
         switch (CommandCode.valueOf(command.command_code)) {
             case power:
                 if (command.command_value.equals("on")) {
@@ -93,6 +94,66 @@ public class CommandCreator {
                         @Override
                         public void execute() {
                             RapiroController.getInstance().turnOffRapiro();
+                        }
+
+                        @Override
+                        public void setValue(String value) {
+                        }
+                    };
+                }
+                if (command.command_value.equals("M1")) {
+                    return new RapiroCommand() {
+                        @Override
+                        public void execute() {
+                            RapiroController.getInstance().sendCommandM1();
+                        }
+
+                        @Override
+                        public void setValue(String value) {
+                        }
+                    };
+                }
+                if (command.command_value.equals("M2")) {
+                    return new RapiroCommand() {
+                        @Override
+                        public void execute() {
+                            RapiroController.getInstance().sendCommandM2();
+                        }
+
+                        @Override
+                        public void setValue(String value) {
+                        }
+                    };
+                }
+                if (command.command_value.equals("M3")) {
+                    return new RapiroCommand() {
+                        @Override
+                        public void execute() {
+                            RapiroController.getInstance().sendCommandM3();
+                        }
+
+                        @Override
+                        public void setValue(String value) {
+                        }
+                    };
+                }
+                if (command.command_value.equals("M4")) {
+                    return new RapiroCommand() {
+                        @Override
+                        public void execute() {
+                            RapiroController.getInstance().sendCommandM4();
+                        }
+
+                        @Override
+                        public void setValue(String value) {
+                        }
+                    };
+                }
+                if (command.command_value.equals("M5")) {
+                    return new RapiroCommand() {
+                        @Override
+                        public void execute() {
+                            RapiroController.getInstance().sendCommandM5();
                         }
 
                         @Override

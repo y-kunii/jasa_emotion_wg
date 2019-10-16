@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: :iot-redge-driverlib:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd9b6f5aa488117589d70c3d8faf70f9/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd9b6f5aa488117589d70c3d8faf70f9/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

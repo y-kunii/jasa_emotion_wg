@@ -1,13 +1,18 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion '25.0.0'
-
+    compileSdkVersion 28
+    buildToolsVersion '28.0.2'
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
     defaultConfig {
         applicationId "jp.co.planis.rapirodriverapp"
         minSdkVersion 23
-        targetSdkVersion 24
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
     }
@@ -20,11 +25,15 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:24.+'
+    compile 'com.android.support:appcompat-v7:28.0.0-rc01'
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile(name:'iot-r-edge-lib-release', ext:'aar')
-    compile 'com.google.code.gson:gson:2.3.1'
+    compile(name:'iot-redge-driverlib', ext:'aar')
+    compile('com.googlecode.json-simple:json-simple:1.1.+') {
+        exclude module: 'junit'
+    }
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'org.apache.commons:commons-lang3:3.6'
 }
 repositories{
     flatDir{

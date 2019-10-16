@@ -7,7 +7,7 @@ import android.util.Log;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import jp.co.planis.iotgatewaylib.service.AbstractConnectGatewayService;
+import proj.iot.exchange.redge.driverlib.service.AbstractConnectGatewayService;
 
 /**
  * ゲートウェイアプリからのコマンドを受信して結果を返却するサービスのサンプル

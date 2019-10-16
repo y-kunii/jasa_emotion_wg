@@ -18,9 +18,9 @@ import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
-import jp.co.planis.iotgatewaylib.CommandResponseCreator;
-import jp.co.planis.iotgatewaylib.commandresponse.CommandResponse;
-import jp.co.planis.iotgatewaylib.service.AbstractConnectGatewayService;
+import proj.iot.exchange.redge.driverlib.CommandResponseCreator;
+import proj.iot.exchange.redge.driverlib.commandresponse.CommandResponse;
+import proj.iot.exchange.redge.driverlib.service.AbstractConnectGatewayService;
 
 import static android.content.ContentValues.TAG;
 
@@ -35,26 +35,67 @@ public class RapiroController {
     BluetoothDevice mBtDevice;
     BluetoothSocket mBtSocket; // BTソケット
     OutputStream mOutput; // 出力ストリーム
+    boolean isBTReady = false;
 
     RapiroController() {
+        connectToParingDevice();
+//        mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+//        Set<BluetoothDevice> pairedDevices = mBluetoothAdapter.getBondedDevices();
+//        Log.d(TAG,"PairedDevices ------------------------");
+//        if (pairedDevices.size() > 0) {
+//            String address = "";
+//            for (BluetoothDevice device : pairedDevices) {
+//                Log.d(TAG,"Name : " + device.getName());
+//                Log.d(TAG,"Address : " + device.getAddress());
+//                address = device.getAddress();
+//            }
+//            mBtDevice = mBluetoothAdapter.getRemoteDevice(address);
+//            if(mBtDevice != null){
+//                isBTReady = true;
+//            }
+//        }
+//        sppConnect();
+    }
+
+    public void connectToParingDevice(){
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+        if(mBluetoothAdapter == null){
+            Log.i(TAG,"Get BluetoothAdapter failed!!");
+            return;
+        }
         Set<BluetoothDevice> pairedDevices = mBluetoothAdapter.getBondedDevices();
-        Log.d(TAG,"PairedDevices ------------------------");
+        Log.i(TAG,"PairedDevices ------------------------");
         if (pairedDevices.size() > 0) {
             String address = "";
             for (BluetoothDevice device : pairedDevices) {
-                Log.d(TAG,"Name : " + device.getName());
-                Log.d(TAG,"Address : " + device.getAddress());
+                Log.i(TAG,"Name : " + device.getName());
+                Log.i(TAG,"Address : " + device.getAddress());
                 address = device.getAddress();
             }
             mBtDevice = mBluetoothAdapter.getRemoteDevice(address);
+            sppConnect();
+        } else {
+            Log.i(TAG,"PairedDevice is none");
         }
-        sppConnect();
     }
 
+//    public void sppConnect(){
+//        Log.d(TAG,"sppConnect Start");
+//        // BTソケットのインスタンスを取得
+//        try {
+//            // 接続に使用するプロファイルを指定
+//            mBtSocket = mBtDevice.createRfcommSocketToServiceRecord(UUID.fromString("00001101-0000-1000-8000-00805F9B34FB"));
+//            // // ソケットを接続する
+//            mBtSocket.connect();
+//            mOutput = mBtSocket.getOutputStream(); // 出力ストリームオブジェクトを得る
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        Log.d(TAG,"sppConnect End");
+//    }
 
-    public void sppConnect(){
-        Log.d(TAG,"sppConnect Start");
+    private void sppConnect(){
+        Log.i(TAG,"sppConnect Start");
         // BTソケットのインスタンスを取得
         try {
             // 接続に使用するプロファイルを指定
@@ -62,12 +103,27 @@ public class RapiroController {
             // // ソケットを接続する
             mBtSocket.connect();
             mOutput = mBtSocket.getOutputStream(); // 出力ストリームオブジェクトを得る
+            if(mBtSocket.isConnected() && mOutput != null){
+                isBTReady = true;
+                Log.i(TAG,"Bluetooth Connect is Ready!!!");
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Log.d(TAG,"sppConnect End");
+        Log.i(TAG,"sppConnect End");
     }
 
+    public void sppDisconnected(){
+        Log.i(TAG,"sppDisconnected Start");
+        try{
+            if(mBtSocket != null) {
+                mBtSocket.close();
+            }
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+        Log.i(TAG,"sppDisconnected End");
+    }
 
     public static RapiroController getInstance() {
         if (instance == null) {
@@ -77,19 +133,39 @@ public class RapiroController {
         return instance;
     }
 
+//    public void sendCommand(String cmd){
+//        Log.d(TAG,"sendCommand Start");
+//        if (mBtSocket == null) {
+//            sppConnect();
+//        }
+//        try {
+//            //mOutput.write(cmd[0]);
+//            mOutput.write(cmd.getBytes());
+//        }catch (IOException e) {
+//            e.printStackTrace();
+//            mBtSocket = null;
+//        }
+//        Log.d(TAG,"sendCommand End");
+//    }
+
     public void sendCommand(String cmd){
-        Log.d(TAG,"sendCommand Start");
+        Log.i(TAG,"sendCommand Start");
+        if(!isBTReady){
+            Log.i(TAG,"Bluetooth Connect is not Ready!!!");
+            return;
+        }
         if (mBtSocket == null) {
             sppConnect();
         }
         try {
             //mOutput.write(cmd[0]);
-            mOutput.write(cmd.getBytes());
-        }catch (IOException e) {
+            Log.i(TAG,"send ->[" + cmd.getBytes("UTF-8") + "]");
+            mOutput.write(cmd.getBytes("UTF-8"));
+        } catch (IOException e) {
             e.printStackTrace();
             mBtSocket = null;
         }
-        Log.d(TAG,"sendCommand End");
+        Log.i(TAG,"sendCommand End");
     }
 
     public void sendRapiroDriverInfo(Context context) {
@@ -124,4 +200,30 @@ public class RapiroController {
         Log.i(TAG, "######## turnOffRapiro #########");
         sendCommand("off");
     }
+
+    public void sendCommandM1() {
+        Log.i(TAG, "######## sendCommand M1 #########");
+        sendCommand("M1");
+    }
+
+    public void sendCommandM2() {
+        Log.i(TAG, "######## sendCommand M1 #########");
+        sendCommand("M2");
+    }
+
+    public void sendCommandM3() {
+        Log.i(TAG, "######## sendCommand M1 #########");
+        sendCommand("M3");
+    }
+
+    public void sendCommandM4() {
+        Log.i(TAG, "######## sendCommand M1 #########");
+        sendCommand("M4");
+    }
+
+    public void sendCommandM5() {
+        Log.i(TAG, "######## sendCommand M1 #########");
+        sendCommand("M5");
+    }
+
 }

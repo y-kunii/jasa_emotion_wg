@@ -1,0 +1,4 @@
+#Thu Sep 12 01:28:22 JST 2019
+base.0=C\:\\jasa_20190912\\things_driver\\things_driver\\rapirodriverapp\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+path.0=classes.dex
+renamed.0=classes.dex

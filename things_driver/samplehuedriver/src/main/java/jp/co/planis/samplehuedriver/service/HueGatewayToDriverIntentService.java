@@ -9,10 +9,10 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import jp.co.planis.iotgatewaylib.ApplicationInfoManager;
-import jp.co.planis.iotgatewaylib.CommandResponseCreator;
-import jp.co.planis.iotgatewaylib.commandresponse.CommandResponse;
-import jp.co.planis.iotgatewaylib.service.AbstractConnectGatewayService;
+import proj.iot.exchange.redge.driverlib.ApplicationInfoManager;
+import proj.iot.exchange.redge.driverlib.CommandResponseCreator;
+import proj.iot.exchange.redge.driverlib.commandresponse.CommandResponse;
+import proj.iot.exchange.redge.driverlib.service.AbstractConnectGatewayService;
 import jp.co.planis.samplehuedriver.CommandCreator;
 import jp.co.planis.samplehuedriver.HueController;
 

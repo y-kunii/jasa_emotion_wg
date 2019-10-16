@@ -9,16 +9,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="jp.co.planis.rapirodriverapp.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-
     <Button
         android:id="@+id/buttonSendDeviceInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:text="@string/btn_send_device_info" android:paddingLeft="10dp" android:paddingRight="10dp"/>
+
+    <Button
+        android:id="@+id/buttonBTDisconnection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BT切断" />
 
 </RelativeLayout>

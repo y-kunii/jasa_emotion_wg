@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.support.v4.content.WakefulBroadcastReceiver;
 
 import jp.co.planis.rapirodriverapp.service.RapiroGatewayToDriverIntentService;
@@ -19,7 +20,10 @@ public class RapiroCommandBroadcastReceiver extends WakefulBroadcastReceiver{
         ComponentName componentName = new ComponentName(context.getPackageName(), RapiroGatewayToDriverIntentService.class.getName());
 
         // サービスの起動。処理中スリープを制御
-        startWakefulService(context, (intent.setComponent(componentName)));
-        setResultCode(Activity.RESULT_OK);
-    }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            context.startForegroundService(intent.setComponent(componentName));
+        } else {
+            startWakefulService(context, (intent.setComponent(componentName)));
+        }
+        setResultCode(Activity.RESULT_OK);    }
 }

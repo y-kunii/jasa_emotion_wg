@@ -3,7 +3,12 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 24
     buildToolsVersion '25.0.0'
-
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
     defaultConfig {
         applicationId "jp.co.planis.sampledriverapp"
         minSdkVersion 23
@@ -23,7 +28,8 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.+'
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile(name:'iot-r-edge-lib-release', ext:'aar')
+    compile(name:'iot-redge-driverlib', ext:'aar')
+    compile 'com.google.code.gson:gson:2.7'
 }
 repositories{
     flatDir{

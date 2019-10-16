@@ -9,8 +9,8 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-import jp.co.planis.iotgatewaylib.CommandResponseCreator;
-import jp.co.planis.iotgatewaylib.commandresponse.CommandResponse;
+import proj.iot.exchange.redge.driverlib.CommandResponseCreator;
+import proj.iot.exchange.redge.driverlib.commandresponse.CommandResponse;
 
 /**
  * iRemoconで実行可能なコマンドを管理するクラス

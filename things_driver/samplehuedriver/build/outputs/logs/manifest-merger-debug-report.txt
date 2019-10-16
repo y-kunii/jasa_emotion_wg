@@ -1,129 +1,173 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:1:1-56:12
+ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:1:1-56:12
+INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:1:1-56:12
+INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:1:1-56:12
+INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:1:1-56:12
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\ea3f7befbe883c5b1a6d6d5c48faeda3\AndroidManifest.xml:17:1-27:12
+MERGED from [:iot-redge-driverlib:] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\f60301ded0274396e1886227e7894d83\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\92aa339ab813fea40e813102dcae8e3b\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\da19ebe566e7b78f4873350a15748afc\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\f82c24e26c7936ec1c028e440cc63f3b\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\cf7e647f79a8f4b03e61cc1bf661b388\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\9c57762aeeccf3f9a9d8e70ea2e6c29c\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\f4b62c387a3f241fe56bc1e61a2c775f\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\0d3428fe8dce6c353f26987c55e92676\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\45ba5a29215702a49d7ec3524608b484\AndroidManifest.xml:17:1-27:12
+INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:1:1-56:12
+INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:1:1-56:12
+INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:1:1-56:12
 	package
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:2:5-43
-		INJECTED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:2:5-43
+		INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml
+		INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml
-	xmlns:android
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:1:11-69
+		INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:1:1-56:12
+		INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml
+		INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:1:1-56:12
+		INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:4:5-67
+ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:4:22-64
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:4:22-64
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:7:5-68
+ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:7:5-68
 	android:name
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:7:22-65
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:7:22-65
 application
-ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:9:5-54:19
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\azara\.android\build-cache\ca957a71f55bf5e7acb35e95d0e5651077cd5f42\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\azara\.android\build-cache\e18c5ef7e0a8ecb3224fc2c66755723ccf51b332\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\azara\.android\build-cache\a8a7af1a9253b60ee7cddc248885308213e8570c\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\azara\.android\build-cache\bd2609aea7307393eb19d10eabf96129dc221e3d\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\azara\.android\build-cache\a57c09d57fece32dc2b2203f5362ea6e63bc3c41\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\azara\.android\build-cache\f02ae70e58a339305960d39c744f45ec003d5e60\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\azara\.android\build-cache\9b6f782881ef287b2c56b31f551c654d9872c157\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\azara\.android\build-cache\e9c5edefff84a930f776214af7edbdeb450bd174\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\azara\.android\build-cache\14ed5320fda86e38c2c6c0cfea1788dce6d8e409\output\AndroidManifest.xml:25:5-20
-MERGED from [:iot-r-edge-lib-release:] C:\Users\azara\.android\build-cache\f7a01c3c6c4c7257204b66752501ff745d3d4a39\output\AndroidManifest.xml:11:5-19:19
-	android:label
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:10:9-41
+ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:9:5-54:19
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\ea3f7befbe883c5b1a6d6d5c48faeda3\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\ea3f7befbe883c5b1a6d6d5c48faeda3\AndroidManifest.xml:25:5-20
+MERGED from [:iot-redge-driverlib:] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\f60301ded0274396e1886227e7894d83\AndroidManifest.xml:11:5-19:19
+MERGED from [:iot-redge-driverlib:] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\f60301ded0274396e1886227e7894d83\AndroidManifest.xml:11:5-19:19
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\92aa339ab813fea40e813102dcae8e3b\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\92aa339ab813fea40e813102dcae8e3b\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\da19ebe566e7b78f4873350a15748afc\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\da19ebe566e7b78f4873350a15748afc\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\f82c24e26c7936ec1c028e440cc63f3b\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\f82c24e26c7936ec1c028e440cc63f3b\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\cf7e647f79a8f4b03e61cc1bf661b388\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\cf7e647f79a8f4b03e61cc1bf661b388\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\9c57762aeeccf3f9a9d8e70ea2e6c29c\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\9c57762aeeccf3f9a9d8e70ea2e6c29c\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\f4b62c387a3f241fe56bc1e61a2c775f\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\f4b62c387a3f241fe56bc1e61a2c775f\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\0d3428fe8dce6c353f26987c55e92676\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\0d3428fe8dce6c353f26987c55e92676\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\45ba5a29215702a49d7ec3524608b484\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\45ba5a29215702a49d7ec3524608b484\AndroidManifest.xml:25:5-20
 	android:supportsRtl
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:12:9-35
-	android:allowBackup
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:9:18-44
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:10:9-41
 	android:icon
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:11:9-43
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:9:18-44
 	android:theme
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:13:9-40
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:13:9-40
 activity#jp.co.planis.samplehuedriver.PHHomeActivity
-ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:15:9-23:20
+ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:15:9-23:20
 	android:label
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:17:13-45
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:17:13-45
 	android:name
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:16:13-43
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:18:13-22:29
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:16:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:21:27-74
 activity#jp.co.planis.samplehuedriver.MainActivity
-ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:25:9-28:20
+ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:25:9-28:20
 	android:label
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:27:13-54
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:27:13-54
 	android:name
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:26:13-41
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:26:13-41
 activity#jp.co.planis.samplehuedriver.PHPushlinkActivity
-ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:29:9-32:20
+ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:29:9-32:20
 	android:label
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:31:13-45
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:31:13-45
 	android:name
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:30:13-47
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:30:13-47
 receiver#jp.co.planis.samplehuedriver.receiver.HueCommandBroadcastReceiver
-ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:36:9-41:20
+ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:36:9-41:20
 	android:exported
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:37:66-90
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:37:66-90
 	android:name
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:37:13-65
-intent-filter#jp.co.planis.gatewaytodriver.intent.RECEIVE
-ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:38:13-40:29
-action#jp.co.planis.gatewaytodriver.intent.RECEIVE
-ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:39:17-86
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:37:13-65
+intent-filter#action:name:proj.iot.exchange.redge.gatewaytodriver.intent.RECEIVE
+ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:38:13-40:29
+action#proj.iot.exchange.redge.gatewaytodriver.intent.RECEIVE
+ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:39:17-97
 	android:name
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:39:25-83
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:39:25-94
 service#jp.co.planis.samplehuedriver.service.HueGatewayToDriverIntentService
-ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:43:9-75
+ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:43:9-75
 	android:name
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:43:18-73
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:43:18-73
 receiver#jp.co.planis.samplehuedriver.receiver.HueCollectInfoBroadcastReceiver
-ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:46:9-50:20
+ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:46:9-50:20
 	android:name
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:46:19-75
-intent-filter#jp.co.planis.gatewaytodriver.intent.COLLECT
-ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:47:13-49:29
-action#jp.co.planis.gatewaytodriver.intent.COLLECT
-ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:48:17-86
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:46:19-75
+intent-filter#action:name:proj.iot.exchange.redge.gatewaytodriver.intent.COLLECT
+ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:47:13-49:29
+action#proj.iot.exchange.redge.gatewaytodriver.intent.COLLECT
+ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:48:17-97
 	android:name
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:48:25-83
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:48:25-94
 service#jp.co.planis.samplehuedriver.service.HueSendDriverInfoIntentService
-ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:52:9-75
+ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:52:9-75
 	android:name
-		ADDED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml:52:18-72
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml:52:18-72
 uses-sdk
-INJECTED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\azara\.android\build-cache\ca957a71f55bf5e7acb35e95d0e5651077cd5f42\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\azara\.android\build-cache\e18c5ef7e0a8ecb3224fc2c66755723ccf51b332\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\azara\.android\build-cache\a8a7af1a9253b60ee7cddc248885308213e8570c\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\azara\.android\build-cache\bd2609aea7307393eb19d10eabf96129dc221e3d\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\azara\.android\build-cache\a57c09d57fece32dc2b2203f5362ea6e63bc3c41\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\azara\.android\build-cache\f02ae70e58a339305960d39c744f45ec003d5e60\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\azara\.android\build-cache\9b6f782881ef287b2c56b31f551c654d9872c157\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\azara\.android\build-cache\e9c5edefff84a930f776214af7edbdeb450bd174\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\azara\.android\build-cache\14ed5320fda86e38c2c6c0cfea1788dce6d8e409\output\AndroidManifest.xml:21:5-23:58
-MERGED from [:iot-r-edge-lib-release:] C:\Users\azara\.android\build-cache\f7a01c3c6c4c7257204b66752501ff745d3d4a39\output\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml
+INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\ea3f7befbe883c5b1a6d6d5c48faeda3\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\ea3f7befbe883c5b1a6d6d5c48faeda3\AndroidManifest.xml:21:5-23:78
+MERGED from [:iot-redge-driverlib:] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\f60301ded0274396e1886227e7894d83\AndroidManifest.xml:7:5-9:41
+MERGED from [:iot-redge-driverlib:] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\f60301ded0274396e1886227e7894d83\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\92aa339ab813fea40e813102dcae8e3b\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\92aa339ab813fea40e813102dcae8e3b\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\da19ebe566e7b78f4873350a15748afc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\da19ebe566e7b78f4873350a15748afc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\f82c24e26c7936ec1c028e440cc63f3b\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\f82c24e26c7936ec1c028e440cc63f3b\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\cf7e647f79a8f4b03e61cc1bf661b388\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\cf7e647f79a8f4b03e61cc1bf661b388\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\9c57762aeeccf3f9a9d8e70ea2e6c29c\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\9c57762aeeccf3f9a9d8e70ea2e6c29c\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\f4b62c387a3f241fe56bc1e61a2c775f\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\f4b62c387a3f241fe56bc1e61a2c775f\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\0d3428fe8dce6c353f26987c55e92676\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\0d3428fe8dce6c353f26987c55e92676\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\45ba5a29215702a49d7ec3524608b484\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\45ba5a29215702a49d7ec3524608b484\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml
+INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.2.1] C:\Users\azara\.android\build-cache\ca957a71f55bf5e7acb35e95d0e5651077cd5f42\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.2.1] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\ea3f7befbe883c5b1a6d6d5c48faeda3\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml
+		INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml
+		INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\azara\AndroidStudioProjects\IoT-Driver\sample\samplehuedriver\src\main\AndroidManifest.xml
-service#jp.co.planis.iotgatewaylib.service.GatewayToDriverIntentService
-ADDED from [:iot-r-edge-lib-release:] C:\Users\azara\.android\build-cache\f7a01c3c6c4c7257204b66752501ff745d3d4a39\output\AndroidManifest.xml:15:9-18:19
+		INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml
+		ADDED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml
+		INJECTED from C:\jasa_20190912\things_driver\things_driver\samplehuedriver\src\main\AndroidManifest.xml
+service#proj.iot.exchange.redge.driverlib.service.REdgeToDriverIntentService
+ADDED from [:iot-redge-driverlib:] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\f60301ded0274396e1886227e7894d83\AndroidManifest.xml:15:9-18:19
 	android:exported
-		ADDED from [:iot-r-edge-lib-release:] C:\Users\azara\.android\build-cache\f7a01c3c6c4c7257204b66752501ff745d3d4a39\output\AndroidManifest.xml:17:13-36
+		ADDED from [:iot-redge-driverlib:] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\f60301ded0274396e1886227e7894d83\AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from [:iot-r-edge-lib-release:] C:\Users\azara\.android\build-cache\f7a01c3c6c4c7257204b66752501ff745d3d4a39\output\AndroidManifest.xml:16:13-91
+		ADDED from [:iot-redge-driverlib:] C:\Users\1saek\.gradle\caches\transforms-2\files-2.1\f60301ded0274396e1886227e7894d83\AndroidManifest.xml:16:13-96

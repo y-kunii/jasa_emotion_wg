@@ -3,8 +3,8 @@ package jp.co.planis.samplehuedriver;
 import java.util.ArrayList;
 import java.util.List;
 
-import jp.co.planis.iotgatewaylib.CommandResponseCreator;
-import jp.co.planis.iotgatewaylib.commandresponse.CommandResponse;
+import proj.iot.exchange.redge.driverlib.CommandResponseCreator;
+import proj.iot.exchange.redge.driverlib.commandresponse.CommandResponse;
 
 /**
  * HueDriverで使用できるコマンドを生成するクラス

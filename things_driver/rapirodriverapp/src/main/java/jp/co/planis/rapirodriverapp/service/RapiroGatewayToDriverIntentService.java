@@ -8,10 +8,10 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import jp.co.planis.iotgatewaylib.ApplicationInfoManager;
-import jp.co.planis.iotgatewaylib.CommandResponseCreator;
-import jp.co.planis.iotgatewaylib.commandresponse.CommandResponse;
-import jp.co.planis.iotgatewaylib.service.AbstractConnectGatewayService;
+import proj.iot.exchange.redge.driverlib.ApplicationInfoManager;
+import proj.iot.exchange.redge.driverlib.CommandResponseCreator;
+import proj.iot.exchange.redge.driverlib.commandresponse.CommandResponse;
+import proj.iot.exchange.redge.driverlib.service.AbstractConnectGatewayService;
 import jp.co.planis.rapirodriverapp.CommandCreator;
 import jp.co.planis.rapirodriverapp.RapiroController;
 
@@ -22,6 +22,7 @@ import jp.co.planis.rapirodriverapp.RapiroController;
 public class RapiroGatewayToDriverIntentService extends AbstractConnectGatewayService {
 
     private static final String TAG = RapiroGatewayToDriverIntentService.class.getSimpleName();
+    private static final String thing_uuid = "21fa027e-923f-4207-ae8c-178f520d84ad";
 
     public RapiroGatewayToDriverIntentService() {
         super(RapiroGatewayToDriverIntentService.class.getSimpleName());
@@ -36,7 +37,11 @@ public class RapiroGatewayToDriverIntentService extends AbstractConnectGatewaySe
         try {
             // 機器IDが一致してなければ実行しない
             JSONObject jsonObject = new JSONObject(extras.getString("json"));
-            if (jsonObject.isNull("thing_uuid") || !jsonObject.getString("thing_uuid").equals(ApplicationInfoManager.getUUID(this))) {
+            Log.e(TAG, jsonObject.getString("thing_uuid"));
+            //if (jsonObject.isNull("thing_uuid") || !jsonObject.getString("thing_uuid").equals(ApplicationInfoManager.getUUID(this))) {
+            if (jsonObject.isNull("thing_uuid") ||
+                !jsonObject.getString("thing_uuid").equals(thing_uuid) ||
+                !jsonObject.getString("thing_uuid").equals(ApplicationInfoManager.getUUID(this))) {
                 return;
             }
         } catch (JSONException e) {
