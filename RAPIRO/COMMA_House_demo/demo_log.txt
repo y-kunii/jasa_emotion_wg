@@ -1,0 +1,560 @@
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
+try spp connect
+bluetooth could not open serial port '/dev/rfcomm0':[Errno 2] could not open port /dev/rfcomm0: [Errno 2] No such file or directory: '/dev/rfcomm0'
