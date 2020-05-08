@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<iflink>
+<language name="jp">
+<device name="生体センサ" icon="DeviceImage.png" key="devicename" value="VitalSensor">
+<if>
+<condition name="離着席" icon="chair.png" key="dataname" value="chair" interface="seating">
+  <property name="判断" datatype="string" type="hidden" key="compare" value="equal" />
+  <property name="離着席" datatype="int" type="radio" option="離席,着席" key="value" value="0,1" />
+</condition>
+<!--
+<condition name="着席すると" icon="chair.png" key="dataname" value="chair" interface="linking">
+  <property name="判断" datatype="string" type="hidden" key="compare" value="equal" />
+  <property name="離着席" datatype="int" type="radio" option="離席,着席" key="value" value="0,1" />
+</condition>
+<condition name="離席すると" icon="chair.png" key="dataname" value="chair" interface="linking">
+  <property name="判断" datatype="string" type="hidden" key="compare" value="equal" />
+  <property name="離着席" datatype="int" type="radio" option="着席,離席" key="value" value="1,0" />
+</condition>
+-->
+<condition name="心拍数" icon="chair.png" key="dataname" value="chair" interface="heartbeat">
+  <property name="判断" datatype="string" type="hidden" key="compare" value="equal" />
+  <property name="心拍数" datatype="int" type="slider" key="value" min="0" max="150" />
+</condition>
+<condition name="呼吸数" icon="chair.png" key="dataname" value="chair" interface="breath">
+  <property name="判断" datatype="string" type="hidden" key="compare" value="equal" />
+  <property name="呼吸数" datatype="int" type="slider" key="value" min="0" max="100" />
+</condition>
+</if>
+</device>
+</language>
+</iflink>
